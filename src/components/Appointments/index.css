@@ -1,0 +1,130 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.container {
+  border-radius: 8px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin: 20px;
+}
+.top-appointment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-heading {
+  font-size: 28px;
+  color: #171f46;
+}
+.form-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.form-title-label {
+  font-size: 14px;
+  color: #b5b7c4;
+  margin-bottom: 10px;
+}
+.title-input {
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  height: 35px;
+  width: 300px;
+  outline: none;
+  padding-left: 10px;
+}
+.form-date-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.form-date-label {
+  font-size: 14px;
+  color: #b5b7c4;
+  margin-bottom: 10px;
+}
+.date-input {
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  height: 35px;
+  width: 300px;
+  outline: none;
+  padding-left: 10px;
+}
+.add-button {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border: 0px;
+  outline: none;
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+}
+.appointments-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media screen and (max-width: 700px) {
+  .appointments-image-container {
+    display: none;
+  }
+}
+.appointments-image {
+  height: 280px;
+  width: 430px;
+  padding-right: 10px;
+  padding-left: 30px;
+}
+
+.line-break {
+  width: 100%;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bottom-container-heading {
+  font-size: 18px;
+  color: #171f46;
+}
+.starred-btn {
+  height: 24px;
+  width: 80px;
+  font-size: 12px;
+  background-color: transparent;
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
+  border-radius: 15px;
+}
+.appointment-item-container {
+  padding-left: 0px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
